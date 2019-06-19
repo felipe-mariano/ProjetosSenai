@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class JavaES {
+	public static void main(String[] args) {
+		System.out.println("Digite seu nome: ");
+		
+		Scanner scanner = new Scanner (System.in);
+		
+	String pessoa = scanner.nextline();
+	
+	System.out.println("Boa noite "+pessoa);
+	}
+
+}
